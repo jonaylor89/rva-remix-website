@@ -1,9 +1,9 @@
 
 const ScheduleSection = () => {
     return (
-        <section>
+        <section id="schedule">
             <div className="flex flex-col items-center py-5">
-                <div className="font-bold text-4xl pb-5">
+                <div className="font-bold text-4xl pb-5 lg:font-black lg:text-5xl">
                     SCHEDULE
                 </div>
 

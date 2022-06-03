@@ -14,8 +14,6 @@ const App = () => {
       <HeaderSection />
       <PrizesSection />
       <ScheduleSection />
-
-      {/* TODO */}
       <HostsSection />
       <SponsorSection />
       <TeamSection />
