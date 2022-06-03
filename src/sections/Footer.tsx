@@ -22,7 +22,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="flex justify-center text-sm font-light mb-5">
-                Copyright RVA Remix Competition LLC 2022
+                Copyright RVA Remix Competition LLC {new Date().getFullYear()}
             </div>
         </footer>
     );
