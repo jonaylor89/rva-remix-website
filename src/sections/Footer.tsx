@@ -12,16 +12,28 @@ const Footer = () => {
             {/* TODO  add on-hover interactions */}
             <div className="flex flex-row justify-center items-center">
                 <div className="px-3 py-3">
-                    <AiFillTwitterCircle fontSize={32} />
+                    <a href="https://twitter.com/rvaremix">
+                        <AiFillTwitterCircle fontSize={32} />
+                    </a>
                 </div>
                 <div className="px-3 py-3">
-                    <AiFillInstagram fontSize={32} />
+                    <a href="https://instagram.com/rvaremix">
+                        <AiFillInstagram fontSize={32} />
+                    </a>
                 </div>
                 <div className="px-3 py-3">
-                    <FaTiktok fontSize={28} />
+                    <a href="https://tiktok.com/@rvaremix">
+                        <FaTiktok fontSize={28} />
+                    </a>
                 </div>
             </div>
-            <div className="flex justify-center text-sm font-light mb-5">
+            <div className="flex justify-center">
+                Contact the team at 
+                <a className="font-bold px-2 text-blue-500" href="mailto:rvaremix@gmail.com">
+                    rvaremix@gmail.com
+                </a>
+            </div>
+            <div className="flex justify-center text-sm font-light my-5">
                 Copyright RVA Remix Competition LLC {new Date().getFullYear()}
             </div>
         </footer>
