@@ -29,7 +29,7 @@ const TeamMember = (props: { name: string, title: string, img_src: string }) => 
 
 const TeamSection = () => {
     return (
-        <section className="bg-rva-remix-purple my-4">
+        <section className="bg-rva-remix-purple my-4 mx-40">
             <div className="flex flex-col items-center py-5">
                 <div className="font-bold text-4xl pb-5 lg:font-black lg:text-5xl lg:pb-6">
                     MEET THE TEAM
