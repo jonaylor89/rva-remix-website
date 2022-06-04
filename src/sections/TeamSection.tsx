@@ -36,7 +36,7 @@ const TeamSection = () => {
                 </div>
 
                 <div className="flex flex-col lg:flex-row">
-                    <TeamMember name="Johannnes" title="Lead Organizer" img_src={johannes} />
+                    <TeamMember name="Johannes" title="Lead Organizer" img_src={johannes} />
                     <TeamMember name="Shadden" title="Lead of Operations" img_src={shadden} />
                     <TeamMember name="Denise" title="Lead Designer" img_src={denise} />
                     <TeamMember name="Jonathan" title="Artists Relation Lead" img_src={jonathan} />
