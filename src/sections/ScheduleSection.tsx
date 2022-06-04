@@ -5,7 +5,7 @@ const ScheduleSection = () => {
     return (
         <section id="schedule">
             <div className="bg-black flex justify-around py-5 lg:mx-40">
-                <div className="flex flex-col items-start">
+                <div className="flex flex-col items-center lg:items-start">
                     <div className="font-bold text-4xl pb-5 lg:font-black lg:text-5xl">
                         SCHEDULE
                     </div>
@@ -30,7 +30,7 @@ const ScheduleSection = () => {
                     </div>
 
                 </div>
-                <div className="lg:visible">
+                <div className="hidden lg:block">
                     <img className="w-200 object-contain" src={character} alt="tiny charater" width={400} />
                 </div>
             </div>
