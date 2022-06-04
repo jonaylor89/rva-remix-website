@@ -2,7 +2,7 @@ import { CgProfile } from 'react-icons/cg';
 
 const TeamMember = (props: { name: string, title: string }) => {
     return (
-        <div className="flex flex-col items-center pb-5">
+        <div className="flex flex-col items-center pb-5 px-10">
             <CgProfile fontSize={128} />
             <div className="font-bold text-lg">
                 {props.name}
@@ -22,7 +22,7 @@ const TeamSection = () => {
                     MEET THE TEAM
                 </div>
 
-                <div className="flex flex-col">
+                <div className="flex flex-col lg:flex-row">
                     <TeamMember name="Johannnes" title="Lead Organizer" />
                     <TeamMember name="Shadden" title="Lead Designer" />
                     <TeamMember name="Denise" title="Lead of Operations" />
