@@ -11,25 +11,25 @@ const Footer = () => {
         <footer>
             {/* TODO  add on-hover interactions */}
             <div className="flex flex-row justify-center items-center">
-                <div className="px-3 py-3">
+                <div className="px-3 py-3 hover:scale-110">
                     <a href="https://twitter.com/rvaremix">
-                        <AiFillTwitterCircle fontSize={32} />
+                        <AiFillTwitterCircle fontSize={32} color="#1DA1F2 " />
                     </a>
                 </div>
-                <div className="px-3 py-3">
+                <div className="px-3 py-3 hover:scale-110">
                     <a href="https://instagram.com/rvaremix">
-                        <AiFillInstagram fontSize={32} />
+                        <AiFillInstagram fontSize={32} color="#DD2A7B" />
                     </a>
                 </div>
-                <div className="px-3 py-3">
+                <div className="px-3 py-3 hover:scale-110">
                     <a href="https://tiktok.com/@rvaremix">
                         <FaTiktok fontSize={28} />
                     </a>
                 </div>
             </div>
             <div className="flex justify-center">
-                Contact the team at 
-                <a className="font-bold px-2 text-blue-500" href="mailto:rvaremix@gmail.com">
+                Contact the team at:
+                <a className="font-bold px-3 text-blue-500 hover:scale-110 ease-in" href="mailto:rvaremix@gmail.com">
                     rvaremix@gmail.com
                 </a>
             </div>

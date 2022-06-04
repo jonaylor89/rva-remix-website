@@ -9,6 +9,9 @@ const SponsorSection = () => {
                 <div>
                     TBD!
                 </div>
+                <div>
+                    <a className="text-red-300" href="https://rvaremix.org">Learn more</a> about becoming a sponsor! 
+                </div>
             </div>
         </section>
     );
