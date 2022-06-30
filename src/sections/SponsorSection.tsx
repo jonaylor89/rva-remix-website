@@ -12,7 +12,7 @@ const SponsorSection = () => {
                     <img src={tapped} alt="tapped logo" width={200}/>
                 </div>
                 <div>
-                    <a className="text-red-300" href="https://rvaremix.org">Learn more</a> about becoming a sponsor! 
+                    <a className="text-red-300" href="https://drive.google.com/file/d/1HIjUZg0nmd2YB_F9z-Yys1wDUJ_WO3SJ/view?usp=sharing">Learn more</a> about becoming a sponsor! 
                 </div>
             </div>
         </section>
