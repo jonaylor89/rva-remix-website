@@ -11,6 +11,11 @@ const HeaderSection = () => {
         <p className="bg-black text-center px-5 pt-5 lg:px-72 lg:mx-40 lg:pt-5">
           RVA Remix Competition is an in-person remix competition for music creators that’s located in Richmond, Virginia. The goal of the competition is to give music creators a space to showcase their creative work, network with other music creators, and compete with one another for prizes.
         </p>
+        <div className="bg-black text-center px-5 pt-5 lg:px-72 lg:mx-40 lg:pt-5">
+          <a className="text-sky-400 underline font-bold hover:scale-110" href="https://forms.gle/yhkEqw7ywYDM4vQcA">
+            Click here
+          </a> to register for the competition.
+        </div>
       </div>
     </section>
   );
