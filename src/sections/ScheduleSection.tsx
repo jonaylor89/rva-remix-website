@@ -12,10 +12,16 @@ const ScheduleSection = () => {
                     <div className="flex flex-col px-9">
                         <div className="font-bold text-xl py-3">Saturday (Sept. 17th)</div>
                         <ul className="flex flex-col list-disc pb-3">
-                            <li>Open Ceremony​</li>
-                            <li>Optional team building</li>
-                            <li>Workshops</li>
-                            <li>Remixing Begins</li>
+                            <li>10am Start of Event​</li>
+                            <li>11am Opening Ceremony</li>
+                            <li>11:30a Team building session</li>
+                            <li>12pm Lunch!</li>
+                            <li>1pm Workshop - Coding with Music with Code Beats</li>
+                            <li>2pm Workshop - Audio Engineering with Carlos from In Your Ear Studio</li>
+                            <li>3pm Workshop - How to Improvise with Jonathan Watson</li>
+                            <li>3:30pm Workshop - Music NFTs with VCU Blockchain club</li>
+                            <li>3-5pm Networking Happy Hour 🍺</li>
+                            <li>6pm End of day one!</li>
                         </ul>
                         <div className="font-bold text-xl py-3">Sunday-Thursday (Sept. 18th-22nd)</div>
                         <ul className="flex flex-col list-disc pb-3">
@@ -26,6 +32,14 @@ const ScheduleSection = () => {
                         <ul className="flex flex-col list-disc pb-3">
                             <li>Official Judging</li>
                             <li>Community Judging through Social Media</li>
+                        </ul>
+                        <div className="font-bold text-xl py-3">Saturday (Sept. 24rd)</div>
+                        <ul className="flex flex-col list-disc pb-3">
+                            <li>6pm Opening for Final Concert</li>
+                            <li>7pm Price Ceremony</li>
+                            <li>8pm 3rd place winner performance</li>
+                            <li>9pm 2nd place winner performance</li>
+                            <li>10pm 1st place winner performance</li>
                         </ul>
                     </div>
 
