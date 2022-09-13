@@ -1,6 +1,7 @@
 
 const tapped = require('../assets/tapped_reverse.png')
 const jam_gems = require('../assets/jam_gems_logo.png')
+const tcc = require('../assets/tcc.png')
 
 const SponsorSection = () => {
     return (
@@ -15,6 +16,9 @@ const SponsorSection = () => {
                     </div>
                     <div className="p-4">
                         <img src={jam_gems} alt="jam gems logo" width={200} />
+                    </div>
+                    <div className="p-4">
+                        <img src={tcc} alt="TCCEntertainment" width={200} />
                     </div>
                 </div>
                 <div>
