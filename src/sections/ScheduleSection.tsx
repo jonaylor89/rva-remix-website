@@ -18,7 +18,7 @@ const ScheduleSection = () => {
                             <li>12pm Lunch!</li>
                             <li>1pm Workshop - Coding with Music with Code Beats</li>
                             <li>2pm Workshop - How to Make Money as an Artist with Carlos from In Your Ear Studio</li>
-                            <li>3pm Workshop - How to Improvise with Jonathan Watson</li>
+                            <li>3pm Workshop - How to Read Sheet Music with Jonathan Watson</li>
                             <li>3:30pm Workshop - Music NFTs with VCU Blockchain club</li>
                             <li>3-5pm Networking Happy Hour 🍺</li>
                             <li>6pm End of day one!</li>
