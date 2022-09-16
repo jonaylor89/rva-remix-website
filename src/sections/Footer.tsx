@@ -12,17 +12,17 @@ const Footer = () => {
             {/* TODO  add on-hover interactions */}
             <div className="flex flex-row justify-center items-center">
                 <div className="px-3 py-3 hover:scale-110">
-                    <a href="https://twitter.com/rvaremix">
+                    <a href="https://twitter.com/tappednetwork">
                         <AiFillTwitterCircle fontSize={32} color="#1DA1F2 " />
                     </a>
                 </div>
                 <div className="px-3 py-3 hover:scale-110">
-                    <a href="https://instagram.com/rvaremix">
+                    <a href="https://instagram.com/tappednetwork">
                         <AiFillInstagram fontSize={32} color="#DD2A7B" />
                     </a>
                 </div>
                 <div className="px-3 py-3 hover:scale-110">
-                    <a href="https://tiktok.com/@rvaremix">
+                    <a href="https://tiktok.com/@tappednetwork">
                         <FaTiktok fontSize={28} />
                     </a>
                 </div>
