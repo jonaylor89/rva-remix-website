@@ -33,10 +33,10 @@ const ScheduleSection = () => {
                             <li>Official Judging</li>
                             <li>Community Judging through Social Media</li>
                         </ul>
-                        <div className="font-bold text-xl py-3">Saturday (Sept. 24rd)</div>
+                        <div className="font-bold text-xl py-3">Saturday (Sept. 24th)</div>
                         <ul className="flex flex-col list-disc pb-3">
                             <li>6pm Opening for Final Concert</li>
-                            <li>7pm Price Ceremony</li>
+                            <li>7pm Prize Ceremony</li>
                             <li>8pm 3rd place winner performance</li>
                             <li>9pm 2nd place winner performance</li>
                             <li>10pm 1st place winner performance</li>
