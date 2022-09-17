@@ -16,6 +16,12 @@ const HeaderSection = () => {
             Click here
           </a> to register for the competition.
         </div>
+        <div className="bg-black text-center px-5 pt-5 lg:px-72 lg:mx-40 lg:pt-5">
+          Submit Remixes
+          <a className="px-1 text-sky-400 underline font-bold hover:scale-110" href="https://forms.gle/yhkEqw7ywYDM4vQcA">
+            here 
+          </a>
+        </div>
       </div>
     </section>
   );
